@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B4C9B"
+    tools:context=".LoginStopActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:text="AUTOPEÇAS E MECÂNICA"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        app:srcCompat="@drawable/placa"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Cadastrar"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Acessar"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Telefone"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="212dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Veiculo"
+        app:layout_constraintTop_toBottomOf="@+id/editText6"
+        tools:layout_editor_absoluteX="102dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="212dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Placa"
+        app:layout_constraintTop_toBottomOf="@+id/editText7"
+        tools:layout_editor_absoluteX="102dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
